@@ -1,12 +1,12 @@
 import React from 'react'
 import {View, Image, StyleSheet} from 'react-native'
+import Cards from '../components/Card'
+import img from '../assets/img/52.jpeg'
 
 export default function (){
     return (
         <View style={styles.ini}>
-            <View style={styles.img}>
-                <Image style={styles.logo} source={require("../assets/img/25.jpg")} />
-            </View>
+                <Cards image={img} name=" sdf" precio="3"/>
         </View>
     )
 }
